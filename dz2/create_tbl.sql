@@ -5,7 +5,7 @@ USE testdb;
 drop table if exists winemag;
 
 create table winemag (
- 	id UInt32 PRIMARY KEY,
+ 	id BigInt PRIMARY KEY,
     country String,
     description String,
     title String,
